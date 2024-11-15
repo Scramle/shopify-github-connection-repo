@@ -156,16 +156,6 @@
     </div>
   </slider-component>
 
-  <!-- TREE OF TALES -->
-  <div class="preview-collection">
-    <div class="box-preview">
-      BOX
-    </div>
-    <div class="token-preview">
-      TOKEN
-    </div>
-  </div>
-  <!-- TREE OF TALES -->
 
   {%- if first_3d_model -%}
     <button
@@ -194,6 +184,7 @@
     and section.settings.gallery_layout contains 'thumbnail'
     or section.settings.mobile_thumbnails == 'show'
   -%}
+
     <slider-component
       id="GalleryThumbnails-{{ section.id }}"
       class="thumbnail-slider slider-mobile-gutter quick-add-hidden{% unless section.settings.gallery_layout contains 'thumbnail' %} medium-hide large-up-hide{% endunless %}{% if section.settings.mobile_thumbnails != 'show' %} small-hide{% endif %}{% if media_count <= 3 %} thumbnail-slider--no-slide{% endif %}"
@@ -341,5 +332,17 @@
         </span>
       </button>
     </slider-component>
+    
+  <!-- TREE OF TALES -->
+  <div class="preview-collection">
+    <div class="box-preview">
+      BOX
+    </div>
+    <div class="token-preview">
+      TOKEN
+    </div>
+  </div>
+  <!-- TREE OF TALES -->
+
   {%- endif -%}
 </media-gallery>
