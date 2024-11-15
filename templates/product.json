@@ -42,12 +42,6 @@
             "font_color": ""
           }
         },
-        "custom_liquid_J3aPnC": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"preview-collection\">\n<div class=\"box-preview\">\nBOX\n</div>\n<div class=\"token-preview\">\nTOKEN\n</div>\n</div>"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -73,7 +67,6 @@
         "rating",
         "description",
         "vo_product_options_block_QdfAY6",
-        "custom_liquid_J3aPnC",
         "quantity_selector",
         "buy_buttons",
         "share"
