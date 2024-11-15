@@ -3694,36 +3694,3 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
-
-/* Tree of Tales edits to Theme */
-
-.box-preview, .token-preview {
-  border-radius: 10px;
-  padding: 2rem;
-  background: #000;
-  color: #fff;
-  display: grid;
-  place-items: center;
-  width: min-content;
-  font-weight: 700;
-}
-
-.treeoftales {
-  -webkit-appearance: none;
-  background: linear-gradient(to right, white 5px, red 30px) !important;
-}
-
-.treeoftales_black {
-  content: ""; /* Gör så att pseudoelementet visas */
-  display: inline-block; /* Gör rektangeln till inline-block för att kontrollera storleken */
-  width: 10px; /* Bredden på rektangeln */
-  height: 10px; /* Höjden på rektangeln */
-  background-color: black; /* Färgen på rektangeln */
-  margin-right: 8px; /* Lägger till lite space mellan rektangeln och texten */
-  vertical-align: middle; /* Justerar rektangeln i mitten om texten är på samma rad */
-}
-
-.preview-collection {
-  display: flex;
-  justify-content: space-around;
-}

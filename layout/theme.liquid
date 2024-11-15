@@ -1,30 +1,25 @@
 <!doctype html>
 <html class="js" lang="{{ request.locale.iso_code }}">
   <head>
-    /* VO - Variant Options Styles */
     <style>
       #bcpo {
       font-family: Helvetica !importantt;
       }
       /* change image swatch size */
       #bcpo .bcpo-images div.bcpo-image-parent {
-        width: 50% !important;
+        width: 100% !important;
       }
       #bcpo label.bcpo-front-image-label,
-      #bcpo input.bcpo-front-image-label {
-        height: 144px !important;
+       #bcpo input.bcpo-front-image-label {
+        height: 100px !important;
       }
-      /* TRYING TO ADD CODE FROM SHOPIFY change the style of the dropdown */
+      /* change the style of the dropdown */
       #bcpo .bcpo-default select,
       #bcpo .bcpo-select select, #bcpo .bcpo-dropdown select {
-        color: white !important;
-        border: 1px solid #e8074d !important;
-        background: white url('https://cdn.shopify.com/s/files/1/0174/2162/t/6/assets/ico-select.svg?v=6348648732451552209') no-repeat scroll right center !important;
       }
       
 
     </style>
-    /* VO - Variant Options Styles */
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -281,6 +276,7 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'treeoftales.css' | asset_url | stylesheet_tag }}
     <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
 
     {%- if settings.cart_type == 'drawer' -%}
