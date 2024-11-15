@@ -59,6 +59,7 @@
         <span class="svg-wrapper">{{ 'icon-play.svg' | inline_asset_content }}</span>
       {%- endif -%}
     </span>
+    
     <img
       srcset="
         {% if media.preview_image.width >= 288 %}{{ media.preview_image | image_url: width: 288 }} 288w,{% endif %}

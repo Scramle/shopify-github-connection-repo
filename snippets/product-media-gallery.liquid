@@ -52,6 +52,7 @@
   data-desktop-layout="{{ section.settings.gallery_layout }}"
 >
   <div id="GalleryStatus-{{ section.id }}" class="visually-hidden" role="status"></div>
+
   <slider-component id="GalleryViewer-{{ section.id }}" class="slider-mobile-gutter">
     <a class="skip-to-content-link button visually-hidden quick-add-hidden" href="#ProductInfo-{{ section.id }}">
       {{ 'accessibility.skip_to_product_info' | t }}
@@ -154,6 +155,18 @@
       </button>
     </div>
   </slider-component>
+
+  <!-- TREE OF TALES -->
+  <div class="preview-collection">
+    <div class="box-preview">
+      BOX
+    </div>
+    <div class="token-preview">
+      TOKEN
+    </div>
+  </div>
+  <!-- TREE OF TALES -->
+
   {%- if first_3d_model -%}
     <button
       class="button button--full-width product__xr-button"
