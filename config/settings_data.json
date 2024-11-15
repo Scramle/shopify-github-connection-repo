@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "logo_width": 160,
@@ -120,11 +129,15 @@
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
-        "settings": { "color_scheme": "scheme-1" }
+        "settings": {
+          "color_scheme": "scheme-1"
+        }
       },
       "main-password-footer": {
         "type": "main-password-footer",
-        "settings": { "color_scheme": "scheme-1" }
+        "settings": {
+          "color_scheme": "scheme-1"
+        }
       }
     },
     "content_for_index": [],
@@ -372,16 +385,22 @@
       "sections": {
         "main-password-header": {
           "type": "main-password-header",
-          "settings": { "color_scheme": "scheme-1" }
+          "settings": {
+            "color_scheme": "scheme-1"
+          }
         },
         "main-password-footer": {
           "type": "main-password-footer",
-          "settings": { "color_scheme": "scheme-1" }
+          "settings": {
+            "color_scheme": "scheme-1"
+          }
         }
       }
     }
   },
   "platform_customizations": {
-    "custom_css": [".dropdown {font-size: 32px; background: black;}"]
+    "custom_css": [
+      ".dropdown {font-size: 32px; background: black;}"
+    ]
   }
 }
