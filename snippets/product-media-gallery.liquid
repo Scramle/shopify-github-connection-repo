@@ -334,13 +334,63 @@
     </slider-component>
     
   <!-- TREE OF TALES -->
+
   <div class="preview-collection">
-    <div class="box-preview">
-      BOX
+    <div id="box" class="preview-column preview_default_svg" >
+      {{- 'preview_box_top_wall.svg' | inline_asset_content -}}
+      <div id="token" class="token-50 token-preview preview_default_background preview_default_color">
+        <span class="text-md" class="text-md">
+          IGNORE ANY OR
+        </span>
+        <span class="text-md" class="text-md">
+          ALL MODIFIERS
+        </span>
+      </div>
+      {{- 'preview_box_wall.svg' | inline_asset_content -}}
+      <div id="token" class="token-50 token-preview preview_default_background preview_default_color">
+        <span class="text-md">
+          ASSAULT DOCTRINE
+        </span>
+        <span class="text-md">
+          ADVANCE & CHARGE
+        </span>
+      </div>
+      {{- 'preview_box_wall.svg' | inline_asset_content -}}
+      <div id="token" class="token-50 token-preview preview_default_background preview_default_color">
+        <span class="text-md">
+          UNIT HAS
+        </span>
+        <span class="text-md">
+          LETHAL HITS
+        </span>
+      </div>
+      {{- 'preview_box_wall.svg' | inline_asset_content -}}
+    <div class="double-token">
+      <div id="token" class="token-25 token-preview  preview_default_background preview_default_color">
+        <span class="text-md">
+          STICKY
+        </span>
+        <span class="text-md">
+          OBJECTIVE
+        </span>
+      </div>
+      <div id="token" class="token-25 token-preview preview_default_background preview_default_color">
+        <span class="text-md">
+          GAIN
+        </span>
+        <span class="text-md">
+          LANCE
+        </span>
+      </div>
     </div>
-    <div class="token-preview">
-      TOKEN
+    {{- 'preview_box_top_wall.svg' | inline_asset_content -}}
     </div>
+
+    <div class="preview-column">
+      <div id="lid" class="preview-lid preview_default_lid_background preview_default_lid_svg">
+        {{- 'preview_lid_icon.svg' | inline_asset_content -}}
+      </div>
+   </div>
   </div>
   <!-- TREE OF TALES -->
 
